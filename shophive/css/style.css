@@ -1,0 +1,111 @@
+html { scroll-behavior: smooth; }
+.body {
+    background: #fff;
+    color: #333e48;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.txt-clr{
+	color:white;
+}
+.font-red{
+	color:rgb(176,30,33);
+}
+.a-clr-black{
+	color:black;
+}
+.pt-half{
+	padding-top: 5px;
+}
+.separator{
+	background-image:url('line.png');
+	background-repeat: repeat-x;
+}
+.w-358{
+	width: 358px!important;
+}
+.icon-size{
+	font-size:25px;
+}
+.center{
+	text-align: center;
+}
+.size-slider{
+	width: 1110px;
+	height: 375px;
+}
+.sam-size{
+	width: 200px;
+	height: 220px;
+}
+.checks{
+	background-image: url("checks.jpg");
+	background-repeat: repeat;
+}
+.hide-me[aria-expanded="true"] {
+    display: none;
+}
+.hide-me2[aria-expanded="false"] {
+    display: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color:black;
+}
+#back-top {
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    bottom: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s ease 0s;
+    backface-visibility: hidden;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+}
+---------------------------------------------------------------------------*/
+.header-container .top-link-container {	
+    background: #1b252f;
+}
+.header-container .top-link-container .container .row{
+    padding-top: 10px;
+}
+.header-container .top-link-container .txt-welcome{
+    color: #fff;
+}
+.header-container .top-link-container .top-link {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 0;
+}
+.header-container .top-link-container .top-link li {
+    display: inline-block;
+}
+.header-container .top-link-container .top-link a {
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+/*LOGO*/
+.header-container .header {
+    text-align: center;
+    transition: all .4s ease;
+    margin-bottom: 6px;
+}
+.header-container .header .logo {
+    max-width: 100%;
+    margin: 0;
+    transition: initial;
+}
